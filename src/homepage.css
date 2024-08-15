@@ -1,0 +1,79 @@
+/* src/HomePage.css */
+.home-page {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+.hero {
+  background-color: #1a73e8;
+  color: white;
+  padding: 3rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+}
+
+.section {
+  padding: 2rem 4rem;
+  margin: 2rem 0;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #1a73e8;
+}
+
+.section p,
+.section ul {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.section ul {
+  list-style: disc;
+  margin-left: 2rem;
+}
+
+.section ul li {
+  margin-bottom: 0.5rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 4rem;
+  background-color: #1a73e8;
+}
+
+.logo {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav-links a:hover {
+  color: #ff6347;
+}
